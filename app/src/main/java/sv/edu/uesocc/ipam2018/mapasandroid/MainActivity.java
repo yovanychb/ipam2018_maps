@@ -108,6 +108,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Circle circulo = Mapa.addCircle(circleOptions);
             }
         });
+
+        Mapa.getUiSettings().setZoomGesturesEnabled(true);
+        Mapa.getUiSettings().setScrollGesturesEnabled(true);
+        Mapa.getUiSettings().setTiltGesturesEnabled(true);
     }
 
     private void cambiarOpciones() {
