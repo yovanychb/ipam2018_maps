@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MapasAndroid</string>
+
+    <string-array name="mapa">
+        <item >Normal</item>
+        <item >Satelite</item>
+        <item >Terreno</item>
+        <item >Hibrido</item>
+    </string-array>
+
+    <string-array name="color">
+        <item >Negro</item>
+        <item >Azul</item>
+        <item >Verde</item>
+        <item >Rojo</item>
+    </string-array>
+
 </resources>
