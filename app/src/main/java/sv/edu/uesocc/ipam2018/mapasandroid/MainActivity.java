@@ -201,16 +201,16 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         lngCirculos.add(point.longitude + "");
 
         if (color.equals("Negro")) {
-            circleOptions.fillColor(Color.HSVToColor(75, new float[]{Color.BLACK, 1, 1}));
+            circleOptions.fillColor(Color.HSVToColor(75, new float[]{0,0,0}));
             Log.d("COLOR",color);
         } else if (color.equals("Azul")) {
-            circleOptions.fillColor(Color.HSVToColor(75, new float[]{Color.BLUE, 1, 1}));
+            circleOptions.fillColor(Color.HSVToColor(75, new float[]{240, 100, 100}));
             Log.d("COLOR",color);
         } else if (color.equals("Verde")) {
-            circleOptions.fillColor(Color.HSVToColor(75, new float[]{Color.GREEN, 1, 1}));
+            circleOptions.fillColor(Color.HSVToColor(75, new float[]{120, 100, 100}));
             Log.d("COLOR",color);
         } else if (color.equals("Rojo")) {
-            circleOptions.fillColor(Color.HSVToColor(75, new float[]{Color.RED, 1, 1}));
+            circleOptions.fillColor(Color.HSVToColor(75, new float[]{0, 100, 100}));
             Log.d("COLOR",color);
         }
         circleOptions.radius(Integer.parseInt(tamanio));
